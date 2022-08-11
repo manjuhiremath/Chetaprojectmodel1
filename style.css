@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    overflow-x: hidden;
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #666;
+    background-color:#ffffffdb;
+
+}
+
+
+/* __________CHETA TEXT Logo __________ */
+.logo {
+    float: left;
+    padding-left: 15px;
+}
+
+.logo a {
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+.logo a span {
+    display: inline-block;
+    padding-right: 14px;
+}
+
+.logo a span.b1 {
+    font-weight: 900;
+}
+
+.logo a span.b2 {
+    font-weight: 700;
+}
+
+.logo a span.b3 {
+    font-weight: 400;
+}
+
+.logo a span.b4 {
+    font-weight: 300;
+}
+
+.logo a span.b5 {
+    font-weight: 100;
+}
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cheta-logo {
+    height: 300px;
+    width: 300px;
+}
+
+.main-container {
+    text-align: center;
+    /* height: 100%; */
+    margin-top: 190px;
+}
+
+.main-container div h1 span.c {
+    font-weight: 500;
+    color: #3f56ea;
+
+}
+
+.main-container div p {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.main-title {
+    font-size: 40px;
+
+}
+
+.greet {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.mybtn {
+    background-color: #3f56ea;
+    color: #ffffff;
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+   
+}
+
+.mybtn:hover {
+    border-color: #3f56ea;
+    border-style: solid;
+    background-color: #fff;
+    border-width: 2px;
+}
+
+
+
+
+/* Footer css */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: rgb(33, 33, 33);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #3f56ea;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+    
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #3f56ea;
+    text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed .footer-left,
+    
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        float: none;
+    }
+    .footer-distributed{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+ 
+/* header */
+.w3-top {
+    -webkit-text-size-adjust: 100%;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8;
+    box-sizing: inherit;
+    position: fixed;
+    background-color: #3f56ea;
+    width: 100%;
+    color: #ffffff;
+    z-index: 1;
+    top: 0;
+}
+
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+}
+
+
+
+.w3-button:hover {
+    color:#33383b !important;
+    background-color: transparent !important
+}
+
+.w3-container div a {
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 150px;
+    background-color: #3f56ea;
+    color: #ffffff;
+    text-align: center;
+    font-style: solid;
+    font-size: 20px;
+    line-height: 40px;
+}
+.w3-container div {
+    background: transparent;
+    outline: none;
+    padding: 14px 16px;
+    
+
+    font-size: 30px;
+    font-weight: 200;
+    color: #3f56ea;
+}
+.w3-container div a:hover {
+    border-color: #3f56ea;
+    border-style: solid;
+    background-color: #fff;
+    border-width: 2px;
+    color: #3f56ea;
+    font-size: 20px;
+    font-weight: 200;
+}
+.btn-box {
+    position: relative;
+    align-self: center;
+    border-bottom: 1px solid #3f56ea;
+}
+
+.btn-box .bi {
+    margin-right: 20px;
+}
+
+.w3-panel{
+    background-color: #fff;
+    word-break: normal;
+    word-wrap: break-word;
+    text-rendering: auto;
+}
+.text{
+    font-size: 15px;
+    font-weight: 200;
+}
